@@ -1,0 +1,29 @@
+{
+    "client": [
+        {
+            "api_key": [
+                {
+                    "current_key": "$FIREBASE_API_KEY$"
+                }
+            ],
+            "client_info": {
+                "android_client_info": {
+                    "package_name": "com.kinglyendeavors.quizapp"
+                },
+                "mobilesdk_app_id": "1:164908542761:android:d974728d0635c3f7892538"
+            },
+            "oauth_client": [],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1",
+    "project_info": {
+        "project_id": "flutter-quiz-app-61cec",
+        "project_number": "164908542761",
+        "storage_bucket": "flutter-quiz-app-61cec.appspot.com"
+    }
+}
