@@ -1,5 +1,5 @@
 [tools]
-flutter = "3.24.4-stable"
+flutter = "latest"
 
 [env]
 _.file = '.env'

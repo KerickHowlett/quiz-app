@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:quizapp/route.dart';
@@ -24,7 +26,12 @@ class _AppState extends State<App> {
       future: _initialization,
       builder: (context, snapshot) {
         if (snapshot.hasError) {
-          return const Text('error');
+          inspect(snapshot);
+          print('Error: ${snapshot.error}');
+          return const Text(
+            'error',
+            textDirection: TextDirection.ltr,
+          );
         }
 
         // Once complete, show your application
@@ -35,7 +42,10 @@ class _AppState extends State<App> {
           );
         }
 
-        return const Text('loading');
+        return const Text(
+          'loading',
+          textDirection: TextDirection.ltr,
+        );
       },
     );
   }

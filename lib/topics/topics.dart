@@ -8,7 +8,10 @@ class TopicsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Topics'),
+        title: const Text(
+          'Topics',
+          textDirection: TextDirection.ltr,
+        ),
       ),
       bottomNavigationBar: const BottomNavBar(),
     );
